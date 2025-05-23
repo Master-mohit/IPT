@@ -1,12 +1,14 @@
 import React from 'react'
-import Props from './components/Props'
-import Axios from './components/Axios'
+import Nav from './components/Nav'
+import Routerrss from './RoutersStore/Routerrss'
+
 
 const App = () => {
   return (
   <>
-    <Props user = "Mohit" />
-    <Axios />
+    <Nav />
+    <Routerrss />
+
     </>
   )
 }
